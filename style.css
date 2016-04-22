@@ -1,0 +1,33 @@
+/*
+Theme Name: Simplex (PJ)
+Description: Dead stupid simple theme
+*/
+
+#content {
+	margin:3em auto;
+	max-width:60ex;
+	line-height:1.6;
+	font-size:18px;
+	color:#222;
+	padding:0 10px;
+	font-family: "open sans", sans-serif;
+}
+
+#content a {
+	color: #369;
+}
+
+#content a:hover {
+	color: #39f;
+}
+
+#content a:visited {
+	color: #336;
+}
+
+
+h1,h2,h3, h4, h5, h6 {
+	line-height:1.2;
+	color: #444;
+	font-family: Georgia, serif;
+}
