@@ -3,7 +3,12 @@ Theme Name: Simplex (PJ)
 Description: Dead stupid simple theme
 */
 
-#content {
+body {
+	margin: 0;
+	padding: 0;
+}
+
+.page-content {
 	margin:3em auto;
 	max-width:60ex;
 	line-height:1.6;
@@ -13,15 +18,19 @@ Description: Dead stupid simple theme
 	font-family: "open sans", sans-serif;
 }
 
-#content a {
+.page-content p {
+	text-align: justify;
+}
+
+.page-content a {
 	color: #369;
 }
 
-#content a:hover {
+.page-content a:hover {
 	color: #39f;
 }
 
-#content a:visited {
+.page-content a:visited {
 	color: #336;
 }
 
@@ -34,4 +43,12 @@ h1,h2,h3, h4, h5, h6 {
 
 .simplex-featured-image {
 	max-width: 100%;
+}
+
+.simplex-date {
+	max-width: 100%;
+	background: #789;
+	color: #def;
+	padding: 1rem;
+	text-align: right;
 }

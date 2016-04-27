@@ -8,7 +8,9 @@ if ( have_posts() ) {
 			the_post_thumbnail();
 			echo( '</div> <!-- .simplex-featured-image -->' . PHP_EOL );
 		}
+		echo( '<div class="page-content">' . PHP_EOL );
 		the_title( '<h1>', '</h1>' . PHP_EOL );
 		the_content();
+		echo( '</div> <!-- .page-content -->' . PHP_EOL );
 	}
 }
