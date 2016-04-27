@@ -31,3 +31,7 @@ h1,h2,h3, h4, h5, h6 {
 	color: #444;
 	font-family: Georgia, serif;
 }
+
+.simplex-featured-image {
+	max-width: 100%;
+}
