@@ -8,10 +8,5 @@
 <?php wp_head(); ?>
 </head>
 
-<body <?php body_class(); ?>>
-<nav id="header">
-<?php
-	wp_nav_menu(); 
-?>
-</nav>
+<body>
 <div id="content">

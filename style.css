@@ -18,6 +18,10 @@ body {
 	font-family: "open sans", sans-serif;
 }
 
+.admin-bar .page-content {
+	margin-top: 4.5em;
+}
+
 .page-content p {
 	text-align: justify;
 }
@@ -41,7 +45,22 @@ h1,h2,h3, h4, h5, h6 {
 	font-family: Georgia, serif;
 }
 
+header {
+	text-align: center;
+	padding; 0;
+}
+header h1 {
+	font-size: 4.0rem;
+}
+
 .simplex-featured-image {
+	width: 100%;
+	text-align: center;
+	box-shadow: 0 5px 5px 0 #777;
+	line-height: 0;
+}
+
+.simplex-featured-image img {
 	max-width: 100%;
 }
 
@@ -52,3 +71,25 @@ h1,h2,h3, h4, h5, h6 {
 	padding: 1rem;
 	text-align: right;
 }
+
+/* Nav menu */
+nav#header {
+	text-align: center;
+	width: 100%;
+	background: #222;
+	padding: 0.125em;
+	z-index: 1000;
+	position: fixed;
+	top: 0;
+	box-shadow: 0 5px 5px 0 #777;
+
+}
+
+.admin-bar nav#header {
+	top: 32px;
+}
+
+ul#menu-site-nav {margin: 0; padding: 1rem; 
+	list-style-type: none; list-style-image: none; }
+ul#menu-site-nav li { display: inline; }
+ul#menu-site-nav li a { color: #9cf; font-family: sans-serif; size: 1.2rem; }
