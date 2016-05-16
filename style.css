@@ -1,6 +1,7 @@
 /*
 Theme Name: Simplex (PJ)
 Description: Dead stupid simple theme
+Props: http://bettermotherfuckingwebsite.com/
 */
 
 body {
@@ -13,7 +14,7 @@ body {
 	max-width:60ex;
 	line-height:1.6;
 	font-size:18px;
-	color:#222;
+	color:#123;
 	padding:0 10px;
 	font-family: "open sans", sans-serif;
 }
@@ -41,7 +42,7 @@ body {
 
 h1,h2,h3, h4, h5, h6 {
 	line-height:1.2;
-	color: #444;
+	color: #456;
 	font-family: Georgia, serif;
 }
 
@@ -93,3 +94,15 @@ ul#menu-site-nav {margin: 0; padding: 1rem;
 	list-style-type: none; list-style-image: none; }
 ul#menu-site-nav li { display: inline; }
 ul#menu-site-nav li a { color: #9cf; font-family: sans-serif; size: 1.2rem; }
+
+@media screen and ( max-width: 480px ) {
+	header, .page-content { margin: 1.0rem; }
+	h1, header h1 { font-size: 2.0rem; }
+	h2 { font-size: 1.75rem;  }
+	h3 { font-size: 1.5rem; }
+	h4, h5, h6 { font-size: 1.25rem; }
+}
+
+@media screen and ( min-width: 481px ) and ( max-width: 640px ) {
+	h1, header h1 { font-size: 3.0rem; }
+}
